@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">Time Fighter</string>
-    <string name="main_tapButtonText">Tap me</string>
-    <string name="main_yourScoreLabelText">Your Score</string>
-    <string name="main_yourScore">0</string>
-    <string name="main_timeLeftLabelText">Time Left</string>
-    <string name="main_timeLeft">00:00</string>
+    <string name="tapButtonText">Tap me</string>
+    <string name="yourScoreLabelText">Your Score</string>
+    <string name="scoreText">0</string>
+    <string name="timeLeftLabelText">Time Left</string>
+    <string name="timeLeft">00:00</string>
 </resources>
