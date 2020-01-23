@@ -12,19 +12,18 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
-        android:text="Your Score:"
+        android:text="@string/main_yourScoreLabelText"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/tapMe"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tap Me"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/main_tapButtonText" />
 
     <TextView
         android:id="@+id/score"
@@ -32,7 +31,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginTop="20dp"
-        android:text="0"
+        android:text="@string/main_yourScore"
         app:layout_constraintStart_toEndOf="@+id/yourScore"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -42,7 +41,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="176dp"
         android:layout_marginTop="20dp"
-        android:text="Time Left"
+        android:text="@string/main_timeLeftLabelText"
         app:layout_constraintStart_toEndOf="@+id/score"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -52,7 +51,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginTop="20dp"
-        android:text="00:00"
+        android:text="@string/main_timeLeft"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/timeLeftText"
         app:layout_constraintTop_toTopOf="parent" />
